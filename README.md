@@ -1,6 +1,10 @@
-# Alura Challenge - programa de Oracle One | Encriptador de texto
+# Alura Challenge - Encriptador de texto
 
-Aplicación que encripta textos.
+### ONE – Oracle Next Education
+
+Aplicación que encripta textos realizado para el desafío del programa de ONE
+
+<img src="./assets/img/visualizacion_proyecto" />
 
 ## Las "llaves" de encriptación usadas son las siguientes:
 
