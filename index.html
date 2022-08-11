@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Codificador</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/Logo.png" alt="logo" class="logo" />
+    </header>
+
+    <main>
+      <textarea
+        placeholder="Ingrese el texto aqui"
+        class="textarea-texto"
+      ></textarea>
+
+      <div class="contenedor-restriccion-btn">
+        <div class="restriccion-container">
+          <img src="./assets/img/Signo-interrogacion.png" alt="" />
+          <p class="restriccion-text">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="container-btn">
+          <button class="btn btn-type-1" id="btn-encriptar">Encriptar</button>
+          <button class="btn btn-type-2" id="btn-desencriptar">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div class="mensaje-decifrado-container">
+      <img src="./assets/img/Muñeco.png" />
+      <h2>Ningún mensaje fue encontrado</h2>
+      <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
