@@ -4,7 +4,7 @@
 
 Aplicación que encripta textos realizado para el desafío del programa de ONE
 
-<img src="./assets/img/visualizacion_proyecto" />
+<img src="./assets/img/visualizacion_proyecto.PNG" />
 
 ## Las "llaves" de encriptación usadas son las siguientes:
 
