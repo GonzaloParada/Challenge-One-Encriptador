@@ -7,6 +7,13 @@ let contenedorResultado = document.querySelector(
 
 const encriptar = () => {
   let frase = textarea.value;
+  for (let letra of frase) {
+    let regex = /[a-z0-9\s]/;
+    if (!regex.test(letra)) {
+      alert("Solo letras minúsculas y sin acentos");
+      return;
+    }
+  }
   let fraseEncriptada = "";
   for (let letra of frase) {
     if (letra == "a") {
@@ -43,6 +50,13 @@ const encriptar = () => {
 
 const desencriptar = () => {
   let fraseEncriptada = textarea.value;
+  for (let letra of fraseEncriptada) {
+    let regex = /[a-z0-9\s]/;
+    if (!regex.test(letra)) {
+      alert("Solo letras minúsculas y sin acentos");
+      return;
+    }
+  }
   let fraseDesencriptada = "";
   fraseDesencriptada = fraseEncriptada.replaceAll("ai", "a");
   fraseDesencriptada = fraseDesencriptada.replaceAll("enter", "e");
